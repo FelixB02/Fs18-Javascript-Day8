@@ -4,12 +4,14 @@
 
 .image {
   width: 15vh;
+  height: 41vh;
 }
 
 #cont {
   display: flex;
   justify-content: center;
   margin-bottom: 1.5vh;
+  height: 60vh;
 }
 
 #div {
@@ -24,6 +26,7 @@
 .smimage {
   width: 15vh;
   height: 15vh;
+  padding-top: 13px;
 }
 
 .content-con {

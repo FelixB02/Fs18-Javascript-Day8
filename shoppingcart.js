@@ -1,25 +1,25 @@
  const products = [{
-         cartItem: "HTML course",
-         cartPicture: "Images/htmlLogo.png",
-         itemPrice: 700.00,
+         cartItem: "Cornflower",
+         cartPicture: "Images/Cornflower.jpg",
+         itemPrice: 8.00,
          itemQuantity: 1,
      },
      {
-         cartItem: "CSS course",
-         cartPicture: "Images/cssLogo.png",
-         itemPrice: 700.00,
+         cartItem: "Sunflower",
+         cartPicture: "Images/Sunflower.jpg",
+         itemPrice: 10.00,
          itemQuantity: 1,
      },
      {
-         cartItem: "Javascript course",
-         cartPicture: "Images/JavaScriptLogo.png",
-         itemPrice: 1000.00,
+         cartItem: "Peony",
+         cartPicture: "Images/Peony.jpg",
+         itemPrice: 5.00,
          itemQuantity: 1,
      },
      {
-         cartItem: "Fullstack course",
-         cartPicture: "Images/Fullstack.png",
-         itemPrice: 4500.00,
+         cartItem: "Tulip",
+         cartPicture: "Images/Tulip.jpg",
+         itemPrice: 5.00,
          itemQuantity: 1,
      }
  ];
@@ -28,7 +28,7 @@
      document.getElementById("products").innerHTML += `
     <div class="col-lg-3 col-md-6  col-sm-12  col-xs-12" id="cont">
     <div class="card" style="width: 22rem;">
-    <img src="${val.cartPicture}" class="card-img-top" alt="...">
+    <img src="${val.cartPicture}" class="card-img-top image" alt="...">
     <hr>
     <div class="card-body">
     <h5 class="card-title">${val.cartItem}</h5>
@@ -71,7 +71,7 @@
                   <p>${val.cartItem}</p>
                   <p><img class="smimage" src="${val.cartPicture}"></p>
                   <p>${val.itemPrice}</p>
-                  <p><p class="btn btn-success minus">-</p>  <span class="quantitycounter">${val.itemQuantity}</span> <p class="btn btn-danger plus">+</p> <p class="btn btn-warning delete">X</p></p>
+                  <p><p class="btn btn-danger minus">-</p>  <span class="quantitycounter">${val.itemQuantity}</span> <p class="btn btn-success plus">+</p> <p class="btn btn-warning delete">X</p></p>
                 </div>`;
      }
 
@@ -123,12 +123,12 @@
          totalprice += (val.itemPrice * val.itemQuantity);
      }
      document.getElementById("totalprice").innerHTML = `Total Price: ${totalprice} €`;
-     if (totalprice > 20000) {
+     if (totalprice > 200) {
          discount = 20;
          discountcalc = 0.8;
          updatedprice = totalprice * discountcalc;
          document.getElementById("updatedtotalprice").innerHTML = `Updated total price with your discount of ${discount}%: ${updatedprice} €  `
-     } else if (totalprice > 10000) {
+     } else if (totalprice > 100) {
          discount = 10;
          discountcalc = 0.9;
          updatedprice = totalprice * discountcalc;
