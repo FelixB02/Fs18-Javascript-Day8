@@ -1,0 +1,80 @@
+#wrap {
+  background-color: lightcyan;
+}
+
+.image {
+  width: 15vh;
+}
+
+#cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5vh;
+}
+
+#div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid darkgrey;
+  background-color: lightgray;
+  margin-bottom: 0.5vh;
+}
+
+.smimage {
+  width: 15vh;
+  height: 15vh;
+}
+
+.content-con {
+  padding: 1.5vh;
+}
+
+#totalprice {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: larger;
+  padding: 0.5vh;
+}
+
+#cartItems {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: larger;
+  padding: 0.5vh;
+}
+
+#updatedtotalprice {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: larger;
+  padding: 0.5vh;
+}
+
+#contPrices {
+  border: 2px solid darkgrey;
+  background-color: lightgrey;
+  margin: 1.5vh;
+}
+
+#products {
+  background-color: lightgrey;
+  margin: 1.5vh;
+  border: 2px solid darkgray;
+}
+#products h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  padding: 1.5vh;
+}
+
+#navbar {
+  margin: 0 1.5vh;
+  padding-top: 1.5vh;
+}/*# sourceMappingURL=shoppingcart.css.map */
