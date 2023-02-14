@@ -1,13 +1,13 @@
  const products = [{
          cartItem: "Cornflower",
          cartPicture: "Images/Cornflower.jpg",
-         itemPrice: 8.00,
+         itemPrice: 10.00,
          itemQuantity: 1,
      },
      {
          cartItem: "Sunflower",
          cartPicture: "Images/Sunflower.jpg",
-         itemPrice: 10.00,
+         itemPrice: 15.00,
          itemQuantity: 1,
      },
      {
